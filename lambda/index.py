@@ -8,7 +8,7 @@ import urllib.parse
 import re  # 正規表現モジュールをインポート
 from botocore.exceptions import ClientError
 
-API_URL = os.environ.get("LLM_API_URL", "")
+API_URL = os.environ.get("https://e3f1-34-118-242-69.ngrok-free.app")
 if not API_URL:
     raise RuntimeError("接続できません")
 
